@@ -1,4 +1,12 @@
 package java12.services.interfaces;
 
-public interface RentIntoInterface {
+import java12.entities.RentInfo;
+
+import java.time.LocalDate;
+import java.util.Date;
+import java.util.List;
+
+public interface RentInfoInterface {
+    List<RentInfo> getRentBetweenDate(LocalDate checkIn, LocalDate checkOut);
+    Integer getCountRent(Long agencyId);
 }

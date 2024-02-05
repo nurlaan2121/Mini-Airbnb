@@ -1,2 +1,6 @@
-package java12.entities;public enum Gender {
+package java12;
+
+public enum Gender {
+    MALE,
+    FEMALE;
 }

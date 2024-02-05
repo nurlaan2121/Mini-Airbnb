@@ -1,2 +1,6 @@
-package java12;public enum FamilyStatus {
+package java12;
+
+public enum FamilyStatus {
+    SINGLE,
+    MARRIED;
 }
